@@ -6,15 +6,27 @@ body{
     background-repeat: no-repeat;
 }
 
+/* HOME */
+#home-body{
+    background-image: url(/photos/Brown\ Grey\ Creative\ Modern\ Online\ Portfolio.png);
+
+}
 #home-image{
-    height: 75vh;
+    height: 55vh;
+    /* width: 100%; */
+    /* margin-left: -350px; */
+    /* background-color: blue; */
+    margin-top: 11%;
+    /* padding-left: -1000em; */
 }
 
 #hello{
     font-family: 'Poppins', sans-serif;
     line-height: 700%;
-    margin-top: 15vh;
-    margin-left: 5vw;
+    margin-top: 17vh;
+    margin-left: 10vw;
+    /* width: 100%; */
+    /* background-color: green; */
     
 }
 #hello h1{
@@ -23,12 +35,36 @@ body{
 }
 #hello h3{
     font-size: 3vh;
+    margin-bottom: -10px;
+
 }
 
 #home{
     display: flex;
     justify-content: space-between;
 }
+
+.name{
+    color: #D13B53;
+}
+
+button {
+    background-color: #EF7C8E;
+    padding: 3% 5%;
+    border: #D13B53;
+    border-radius: 12px;
+    box-shadow: 5px 10px #D13B53 ;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+
+/* END OF HOME */
+
 
 header{
     display: inline-flex;
@@ -48,3 +84,27 @@ header{
     height: 150%;
     /* margin-top: -20px; */
 }
+
+#education{
+    display: inline-flex;
+    justify-content: space-evenly;
+flex-direction: row;    /* justify-content: space-around; */
+}
+
+#work{
+    display: inline-block;
+}
+
+.work-card{
+    display: inline-flex;
+    background-color: rgb(245, 207, 226);
+    width: 45%;
+   /* margin-left: 20px; */
+    margin-top: 15px;
+    padding: 30px; 
+}
+
+.page-title{
+    text-align: center;
+}
+
