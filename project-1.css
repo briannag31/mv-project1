@@ -5,6 +5,28 @@ body{
     width: 100%;
     background-repeat: no-repeat;
 }
+.navMenu {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .navMenu a {
+    color: #D13B53;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    width: 100px;
+
+  }
+  
+  .navMenu a:hover {
+    color: #EF7C8E;
+  }
+  
 
 /* HOME */
 #home-body{
@@ -95,31 +117,6 @@ button {
 /* END OF BIOGRAPHY */
 
 /* EXPERIENCE */
-.navMenu {
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-  .navMenu a {
-    color: #D13B53;
-    text-decoration: none;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    font-weight: 500;
-    display: inline-block;
-    width: 100px;
-
-  }
-  
-  .navMenu a:hover {
-    color: #EF7C8E;
-  }
-  
-
-  
-
 h2{
     color: white;
     text-align: center;
@@ -143,8 +140,6 @@ flex-direction: row;    /* justify-content: space-around; */
     text-align: center;
     color: white;
     font-size: 65px;
-    /* margin-top: -1%; */
-    /* margin-bottom: -35px; */
 }
 
 #ed{
@@ -157,7 +152,6 @@ flex-direction: row;    /* justify-content: space-around; */
     flex-wrap: wrap ;
 }
 .work-card {
-    /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     display: flex;
@@ -192,9 +186,6 @@ flex-direction: row;    /* justify-content: space-around; */
     margin-bottom: -10px;
     
   }
-  /* .ed-card p{
-    margin-bottom: -15px;
-  } */
 
   .ed-icon{
     width: 15%;
@@ -207,7 +198,6 @@ flex-direction: row;    /* justify-content: space-around; */
     margin: auto 0;
     margin-right: 8%;
   }
-  /* On mouse-over, add a deeper shadow */
   .work-card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
@@ -215,9 +205,6 @@ flex-direction: row;    /* justify-content: space-around; */
     padding: 2px 16px;
     width: 65%;
     background-color: #EF7C8E;
-    
-    
-
   }
   .duties{
     background-color: #D13B53;
@@ -231,17 +218,45 @@ header{
     height: 40px;
     justify-content: space-between;
 }
-.nav{
-    margin-right: 10px;
-    font-size: 25px;
-    text-decoration: none;
-    color: black;
+
+/* PORTFOLIO */
+#projects-body{
+    background-image: url(/photos/Brown\ Grey\ Creative\ Modern\ Online\ Portfolio\ \(2\).png);
+    background-size: cover;
 }
 
-.logo{
-    height: 150%;
-    /* margin-top: -20px; */
-}
+.project-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .project-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: -flex;
+    border-radius: 15px;
+    width: 33%;
+    color: white;
+    background-color: #D13B53;
 
+  }
+  .project-card h4{
+    font-size: 20px;
+    margin-bottom: -10px;
+  }
+  .project-photo{
+    width: 100%;
+    height: 30%;
+    margin: auto 0;
+    margin-right: 8%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .links{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+    
+  }
+/* END OF PORTFOLIO */
 
 
