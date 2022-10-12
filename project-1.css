@@ -9,25 +9,17 @@ body{
 /* HOME */
 #home-body{
     background-image: url(/photos/Brown\ Grey\ Creative\ Modern\ Online\ Portfolio.png);
-
 }
 #home-image{
     height: 55vh;
-    /* width: 100%; */
-    /* margin-left: -350px; */
-    /* background-color: blue; */
     margin-top: 11%;
-    /* padding-left: -1000em; */
 }
 
 #hello{
     font-family: 'Poppins', sans-serif;
     line-height: 700%;
     margin-top: 17vh;
-    margin-left: 10vw;
-    /* width: 100%; */
-    /* background-color: green; */
-    
+    margin-left: 10vw; 
 }
 #hello h1{
     font-size: 10vh;
@@ -36,18 +28,14 @@ body{
 #hello h3{
     font-size: 3vh;
     margin-bottom: -10px;
-
 }
-
 #home{
     display: flex;
     justify-content: space-between;
 }
-
 .name{
     color: #D13B53;
 }
-
 button {
     background-color: #EF7C8E;
     padding: 3% 5%;
@@ -62,9 +50,49 @@ button {
     font-size: 30px;
 }
 
-
 /* END OF HOME */
 
+
+/* BIOGRAPHY */
+#bio-body{
+    background-image: url(/photos/Brown\ Grey\ Creative\ Modern\ Online\ Portfolio\ \(2\).png);
+    background-size: cover;
+}
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+#about-photo{
+    /* height: 55vh; */
+    margin-top: 8%;
+}
+
+#about h1{
+    color: white;
+    /* font-family: 'Sacramento', cursive; */
+    font-size: 50px;
+    margin-bottom: -35px;
+}
+
+#about-p{
+    width: 70%;
+    font-size: 30px;
+    color: white;
+
+}
+#bio{
+    display: block;
+    margin-top: 7%;
+    margin-left: 5%;
+    
+}
+.about-button{
+    margin-left: 40px;
+}
+/* END OF BIOGRAPHY */
 
 header{
     display: inline-flex;
