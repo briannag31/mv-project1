@@ -33,7 +33,8 @@ body{
 
 /* HOME */
 #home-body{
-    background-image: url(/photos/Brown\ Grey\ Creative\ Modern\ Online\ Portfolio.png);
+  background: url(/photos/primary-bg.png)no-repeat center center fixed;
+  font-family: 'Poppins', sans-serif;
 }
 #home-image{
     height: 55vh;
@@ -49,10 +50,12 @@ body{
 #hello h1{
     font-size: 10vh;
     margin-bottom: -50px;
+    color: white;
 }
 #hello h3{
     font-size: 3vh;
     margin-bottom: -10px;
+    color: #EF7C8E;
 }
 #home{
     display: flex;
@@ -80,8 +83,8 @@ body{
 
 /* BIOGRAPHY */
 #bio-body{
-    background-image: url(/photos/Brown\ Grey\ Creative\ Modern\ Online\ Portfolio\ \(2\).png);
-    background-size: cover;
+  background: url(/photos/secondary-bg.png)no-repeat center center fixed;
+  font-family: 'Poppins', sans-serif;
 }
 
 #about{
@@ -126,9 +129,8 @@ h2{
     font-size: 40px;
 }
 #exp-body{
-    background-image: url(/photos/Brown\ Grey\ Creative\ Modern\ Online\ Portfolio\ \(2\).png);
-    background-size: cover;
-    font-family: 'Poppins', sans-serif;
+  background: url(/photos/secondary-bg.png)no-repeat center center fixed;
+  font-family: 'Poppins', sans-serif;
 }
 #education{
     display: inline-flex;
@@ -224,109 +226,121 @@ header{
 
 /* PORTFOLIO */
 #projects-body{
-    background-image: url(/photos/Brown\ Grey\ Creative\ Modern\ Online\ Portfolio\ \(2\).png);
-    background-size: cover;
+    background: url(/photos/secondary-bg.png)no-repeat center center fixed;
     font-family: 'Poppins', sans-serif;
 }
-
-.project-card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  .project-card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    display: -flex;
-    border-radius: 15px;
-    width: 30%;
-    color: white;
-    background-color: #D13B53;
-    margin: 20px;
-
-  }
-  .project-card h4{
-    font-size: 20px;
-    margin-bottom: -10px;
-    
-  }
-  .project-photo{
-    width: 100%;
-    height: 50%;
-    margin: auto 0;
-    margin-right: 8%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-  }
-  .project-desc{
-    font-size: 20px;
-  }
+#projects-title{
+  text-align: center;
+  color: white;
+  font-size: 65px;
+  margin-top: 80px;
+  margin-bottom: -50px;
+}
   #projects{
     display: inline-flex;
-    /* justify-content: start space-around;
-    flex-wrap: wrap ; */
     flex-flow: row wrap;
-    flex: 0 0 33.333%;
-  display: flex;
-  padding: 10px;
 }
-.details{
+
+.container2 .card .icon {
+  position: absolute;
+  width: 100%;
   height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: #fff;
 }
-.project-button{
-  width: 48%;
+.container2 .card .slide {
+  width: 400px;
+  height: 300px;
+  transition: 0.5s;
+}
+
+.container2 .card .slide.slide1 {
+  position: relative;
   display: flex;
-  background-color: #EF7C8E;
-  height: 100%;
-  justify-content: end;
-  
-}
-.btn-group{
-  /* position:absolute;
-  bottom:0; */
-  
-}
-.link{
-    margin:0 auto;
-    text-decoration: none;
-    color: white;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transition: .7s;
+  transform: translateY(100px);
 }
 
-
-.btn-group button {
-  background-color: #EF7C8E; 
-  border: 1px solid #D13B53;
-  color: white; 
-  font-size: 18px;
-  width: 50%;
-  padding: 14px 35px;
-  cursor: pointer;
-  float: left; 
-position: relative;
+.container2 .card:hover .slide.slide1{
+  transform: translateY(0px);
 }
 
-.left{
-  border-bottom-left-radius: 15px;
+.container2 .card .slide.slide2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: .8s;
+  transform: translateY(-200px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
-.right{
-  border-bottom-right-radius: 15px;
+
+.container2 .card:hover .slide.slide2{
+  transform: translateY(0);
 }
-.btn-group:after {
+
+.container2 .card .slide.slide2::after{
   content: "";
-  clear: both;
-  display: table;
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  bottom: 15px;
+  left: 50%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-/* Add a background color on hover */
-.btn-group button:hover {
-  background-color: #D13B53;
-}
-.project-title{
+.container2 .card .slide.slide2 .content p {
+  margin: 0;
+  padding: 0;
   text-align: center;
+  color: white;
+}
+.project-photo2{
+  height: 100%;
+  width: 100%;
+}
+.container2 .card .slide.slide2 .content h3 {
+  margin: 0 0 10px 0;
+  padding: 0;
   font-size: 24px;
-}
-#projects-title{
-  margin-top: 60px;
   text-align: center;
-    color: white;
-    font-size: 65px;
+  color: white;
+} 
+
+.card{
+  margin: 50px;
+  margin-bottom: -150px;
 }
+.container2{
+  margin: auto;
+}
+.slide2{
+  background-color: #EF7C8E;
+}
+
 /* END OF PORTFOLIO */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #D13B53;
+  color: white;
+  text-align: center;
+}
+
+.footer-logo{
+  height: 35px;
+  margin-left: 10px;
+  padding: 15px;
+}
