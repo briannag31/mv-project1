@@ -20,9 +20,12 @@ body{
     font-weight: 500;
     display: inline-block;
     width: 100px;
+    
 
   }
-  
+  .last-nav{
+    padding-left: 75px;
+  }
   .navMenu a:hover {
     color: #EF7C8E;
   }
@@ -58,7 +61,7 @@ body{
 .name{
     color: #D13B53;
 }
-button {
+.btn {
     background-color: #EF7C8E;
     padding: 3% 5%;
     border: #D13B53;
@@ -223,6 +226,7 @@ header{
 #projects-body{
     background-image: url(/photos/Brown\ Grey\ Creative\ Modern\ Online\ Portfolio\ \(2\).png);
     background-size: cover;
+    font-family: 'Poppins', sans-serif;
 }
 
 .project-card:hover {
@@ -233,30 +237,96 @@ header{
     transition: 0.3s;
     display: -flex;
     border-radius: 15px;
-    width: 33%;
+    width: 30%;
     color: white;
     background-color: #D13B53;
+    margin: 20px;
 
   }
   .project-card h4{
     font-size: 20px;
     margin-bottom: -10px;
+    
   }
   .project-photo{
     width: 100%;
-    height: 30%;
+    height: 50%;
     margin: auto 0;
     margin-right: 8%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
   }
-  .links{
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 15px;
-    
+  .project-desc{
+    font-size: 20px;
   }
+  #projects{
+    display: inline-flex;
+    /* justify-content: start space-around;
+    flex-wrap: wrap ; */
+    flex-flow: row wrap;
+    flex: 0 0 33.333%;
+  display: flex;
+  padding: 10px;
+}
+.details{
+  height: 100%;
+}
+.project-button{
+  width: 48%;
+  display: flex;
+  background-color: #EF7C8E;
+  height: 100%;
+  justify-content: end;
+  
+}
+.btn-group{
+  /* position:absolute;
+  bottom:0; */
+  
+}
+.link{
+    margin:0 auto;
+    text-decoration: none;
+    color: white;
+}
+
+
+.btn-group button {
+  background-color: #EF7C8E; 
+  border: 1px solid #D13B53;
+  color: white; 
+  font-size: 18px;
+  width: 50%;
+  padding: 14px 35px;
+  cursor: pointer;
+  float: left; 
+position: relative;
+}
+
+.left{
+  border-bottom-left-radius: 15px;
+}
+.right{
+  border-bottom-right-radius: 15px;
+}
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #D13B53;
+}
+.project-title{
+  text-align: center;
+  font-size: 24px;
+}
+#projects-title{
+  margin-top: 60px;
+  text-align: center;
+    color: white;
+    font-size: 65px;
+}
 /* END OF PORTFOLIO */
-
-
