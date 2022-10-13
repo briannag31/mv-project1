@@ -1,5 +1,5 @@
 body{
-    background-image: url(/photos/full-background.png);
+    background-image: url(photos/full-background.png);
     /* background-size: c; */
     height: 100%;
     width: 100%;
@@ -83,7 +83,7 @@ body{
 
 /* BIOGRAPHY */
 #bio-body{
-  background: url(/photos/secondary-bg.png)no-repeat center center fixed;
+  background: url(photos/secondary-bg.png)no-repeat center center fixed;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -129,7 +129,7 @@ h2{
     font-size: 40px;
 }
 #exp-body{
-  background: url(/photos/secondary-bg.png)no-repeat center center fixed;
+  background: url(photos/secondary-bg.png)no-repeat center center fixed;
   font-family: 'Poppins', sans-serif;
 }
 #education{
@@ -226,7 +226,7 @@ header{
 
 /* PORTFOLIO */
 #projects-body{
-    background: url(/photos/secondary-bg.png)no-repeat center center fixed;
+    background: url(photos/secondary-bg.png)no-repeat center center fixed;
     font-family: 'Poppins', sans-serif;
 }
 #projects-title{
