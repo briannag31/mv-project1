@@ -33,7 +33,7 @@ body{
 
 /* HOME */
 #home-body{
-  background: url(/photos/primary-bg.png)no-repeat center center fixed;
+  background: url(photos/primary-bg.png)no-repeat center center fixed;
   font-family: 'Poppins', sans-serif;
 }
 #home-image{
