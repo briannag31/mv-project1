@@ -246,6 +246,15 @@ header{
     flex-flow: row wrap;
     margin-bottom: 300px;
 }
+.project-link{
+  color: white;
+  font-weight: bolder;
+  width: 100%;
+  margin: 33%;
+}
+.project-desc{
+  margin-bottom: 50px;
+}
 
 .container2 .card .icon {
   position: absolute;
@@ -307,6 +316,7 @@ header{
 .container2 .card .slide.slide2 .content p {
   margin: 0;
   padding: 0;
+  margin-bottom: 30px;
   text-align: center;
   color: white;
 }
