@@ -347,13 +347,13 @@ header{
 }
 
 /* MEDIA QUERIESSSSSS */
-@media screen and (max-width: 500px){
-  * {
+@media screen and (max-width: 768px){
+  * #exp-body{
       flex-direction: column;
        height: 100%;
       width: 100%
   }
-  #home{
+  #home {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -445,6 +445,9 @@ nav{
 }
 .last-nav{
   margin-left: -55px;
+}
+.exp-nav{
+  width: 100%;
 }
 /* #projects{
   margin-top: -1000px;
@@ -541,9 +544,27 @@ nav{
     color: white;
   } 
   
+ #ed{
+  display: flex;
+  flex-direction: column;
+ }
+ .ed-card{
+  width: 80%;
+  margin-bottom: 20px;
+  margin: auto auto 20px;
+  
+ }
  
- 
-
+ #experience{
+  display: flex;
+  flex-direction: column;
+ }
+ .work-card{
+  width: 80%;
+  padding-right: 23px;
+  margin: auto auto 30px;
+  height: 100%;
+ }
 
 
 
