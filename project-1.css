@@ -21,8 +21,11 @@ body{
     display: inline-block;
     width: 100px;
   }
-  .last-nav{
+  .long-nav .long-nav-media .last-nav{
     padding-left: 75px;
+  }
+  .ln{
+    padding-left: 50px;
   }
   .navMenu a:hover {
     color: #EF7C8E;
@@ -365,7 +368,9 @@ header{
   width: 100%;
   
 }
-
+.long-nav-media{
+  padding-left: 75px;
+}
 .media-photo{
   display: block;
   height: 30vh;
@@ -472,18 +477,8 @@ nav{
 */
 #projects-title{
   font-size: 40px;
-  margin-bottom: -900px;
+  
 }
-
-.container2{
-  margin-bottom: -300px;
-}
-
-/* .project-desc{
-  margin-top: -1000px;
-}
-.project-name{
-  font-size: 500px; */
 
   .container2 .card .icon {
     position: absolute;
@@ -554,7 +549,7 @@ nav{
     width: 100%;
   }
   .container2 .card .slide.slide2 .content h3 {
-    margin: 0 0 -215px 0;
+    margin: 0 0 0 0;
     padding: 0;
     font-size: 24px;
     text-align: center;
@@ -583,7 +578,9 @@ nav{
   height: 100%;
  }
 
-
+.ln{
+  display: none;
+}
 
 
 }
