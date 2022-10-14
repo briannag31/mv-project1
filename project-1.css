@@ -413,4 +413,37 @@ header{
   display: none;
 }
 
+#about-photo{
+  height: 50%;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+#bio h1{
+  font-size: 30px;
+  text-align: center;
+}
+
+#about-p-media{
+  font-size: 20px;
+  color: white;
+  margin-bottom: 200px;
+  text-align: center;
+}
+#about-p{
+  display: none;
+}
+nav{
+  font-size: 15px;
+  margin-top: 400px;
+  text-align: center;
+}
+.navMenu a{
+  text-decoration: underline;
+}
+.last-nav{
+  margin-left: -55px;
+}
+
 }
