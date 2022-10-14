@@ -159,6 +159,7 @@ flex-direction: row;    /* justify-content: space-around; */
     display: inline-flex;
     justify-content: start space-between;
     flex-wrap: wrap ;
+    margin-bottom: 100px;
 }
 .work-card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -243,6 +244,7 @@ header{
   #projects{
     display: inline-flex;
     flex-flow: row wrap;
+    margin-bottom: 300px;
 }
 
 .container2 .card .icon {
