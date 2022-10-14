@@ -352,7 +352,7 @@ header{
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px){
-  * #exp-body {
+  * #exp-body  {
       flex-direction: column;
        height: 100%;
       width: 100%
@@ -415,29 +415,42 @@ header{
     box-shadow: 5px 10px #D13B53 ;
     margin-left: 30%;   
 }
-
-
+#bio{
+  display: block;
+  width: 100%;
+}
+#about{
+  display: block;
+  width: 100%;
+}
 #about-photo{
   height: 50%;
   width: 50%;
-  margin: 0 auto;
+  margin-left: 30%;
   margin-top: 60px;
 }
 
 #bio h1{
   font-size: 30px;
   text-align: center;
+  margin-bottom: 30px;
 }
-
-#about-p-media{
-  font-size: 20px;
-  color: white;
-  margin-bottom: 200px;
-  text-align: center;
+.media-btn-bio{
+  width: 80%;
+  display: inline-flex;
+  justify-content: center;
 }
 #about-p{
-  display: none;
+  font-size: 20px;
+  color: white;
+  width: 80%;
+  margin: auto;
+  /* margin-bottom: 200px; */
+  text-align: center;
 }
+/* #about-p{
+  display: none;
+} */
 nav{
   font-size: 15px;
   /* margin-top: 400px; */
