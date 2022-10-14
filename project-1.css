@@ -329,7 +329,9 @@ header{
 }
 
 /* END OF PORTFOLIO */
-
+.media-photo{
+  display: none;
+}
 .footer {
   position: fixed;
   left: 0;
@@ -345,26 +347,34 @@ header{
   margin-left: 10px;
   padding: 15px;
 }
+/* END OF STANDARD CSS */
 
-/* MEDIA QUERIESSSSSS */
+
+/* MEDIA QUERIES */
 @media screen and (max-width: 768px){
-  * #exp-body{
+  * #exp-body {
       flex-direction: column;
        height: 100%;
       width: 100%
   }
-  #home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  #home-body{
+    height: 100%;
+    margin: 0 auto;
   }
-  /* #hello{
-    display: block;
-    flex-direction: column;
-  } */
+#hello{
+  width: 100%;
+  
+}
+
+.media-photo{
+  display: block;
+  height: 30vh;
+  margin: auto ;
+  margin-top: -50px;
+}
   #home h1{
-    margin-top: 100px;
-    /* margin-bottom: -450px; */
+    margin-top: 10px;
+    margin-bottom: 30px;
     color: #D13B53;
     font-size: 50px;
     line-height: normal;
@@ -375,7 +385,7 @@ header{
     display: none;    
   }
   #home h3{
-    margin-top: -260px;
+    margin-top: -60px;
     color: #D13B53;
     font-size: 20px;
     width: 100%;
@@ -397,21 +407,15 @@ header{
   #home-image{
     display: none;
   }
-  .btn2 {
+  .btn {
     background-color: #EF7C8E;
     padding: 3% 5%;
     border: #D13B53;
     border-radius: 12px;
     box-shadow: 5px 10px #D13B53 ;
-    height: 10vh;
-    width: fit-content;
-    margin: 0;
-    margin-bottom: 300px;
-    /* display: none; */
+    margin-left: 30%;   
 }
-.btn{
-  display: none;
-}
+
 
 #about-photo{
   height: 50%;
